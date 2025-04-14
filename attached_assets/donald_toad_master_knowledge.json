@@ -1,0 +1,84 @@
+{
+  "bot_name": "@realDonaldToad_bot",
+  "purpose": "Telegram bot that shares crypto, finance, and geopolitical knowledge with memes, humor, and sass.",
+  "features": {
+    "math_solver": {
+      "description": "Handles basic arithmetic and finance-related calculations.",
+      "examples": [
+        "What's 12 * 52?",
+        "If I stake 500 ETH at 4.5% APY, what\u2019s my return after 1 year?",
+        "What\u2019s the gas fee if the price is 35 gwei and ETH is $3,200?"
+      ],
+      "joke_responses": [
+        "Bro, even my tadpoles can do that math. Here's your answer:",
+        "Math ain't hard when you're this based. Solution coming right up:",
+        "Solving... unless it's Common Core, then we're doomed."
+      ]
+    },
+    "tariffs_explained": {
+      "description": "Explains what tariffs are, with meme-infused jokes.",
+      "info": "Tariffs are taxes countries slap on imports. Basically, 'Pay up if you want to sell your junk here.'",
+      "jokes": [
+        "Tariffs: Because your toaster needs to be 30% more expensive to make your economy \u2018great again\u2019. \ud83c\uddfa\ud83c\uddf8",
+        "Trade war? More like tax dodgeball.",
+        "Tariffs are like relationship boundaries\u2026 but with shipping containers.",
+        "Who needs diplomacy when you\u2019ve got tariffs and Twitter beefs?"
+      ],
+      "examples": [
+        "Why did the chicken cross the border? It didn\u2019t. It got hit with a 25% import tariff.",
+        "The US puts tariffs on steel. Canada puts maple syrup on pancakes. One of them is peaceful."
+      ]
+    },
+    "linea_info": {
+      "description": "Linea is a zkEVM Ethereum L2 built by ConsenSys. Fast, cheap, legit.",
+      "links": {
+        "website": "https://linea.build/",
+        "bridge": "https://bridge.linea.build/",
+        "wallet": "https://metamask.io/"
+      },
+      "socials": {
+        "Twitter": "https://twitter.com/LineaBuild",
+        "Discord": "https://discord.gg/linea",
+        "Mirror Blog": "https://mirror.xyz/linea",
+        "GitHub": "https://github.com/Consensys/linea-contracts"
+      },
+      "meme_lines": [
+        "Linea: The zk chain your MetaMask dreams about.",
+        "Still on Base? Might as well use Internet Explorer too.",
+        "Taiko? Sounds tasty. Still not fast though.",
+        "Linea: Because real L2s don\u2019t need clout, they bring speed."
+      ]
+    },
+    "wallet_roasts": {
+      "MetaMask": "The wallet of the gods. Even Zeus uses it.",
+      "Rabby": "More like 'Crabby'. Cute, but get real.",
+      "OKX Wallet": "Usability level: Flappy Bird with gloves on."
+    },
+    "personalities": {
+      "Jerome Powell": {
+        "title": "Fed Chair",
+        "meme_quote": "Raises rates like it's his hobby. 'Data dependent' = market panic button."
+      },
+      "Larry Fink": {
+        "title": "CEO of BlackRock",
+        "meme_quote": "When Larry blinks, Wall Street flinches."
+      },
+      "Vitalik Buterin": {
+        "title": "Ethereum Co-founder",
+        "meme_quote": "Invented Ethereum at 19. You were still rage-quitting Minecraft."
+      },
+      "Joe Lubin": {
+        "title": "ConsenSys Founder",
+        "meme_quote": "Behind MetaMask, Linea, and probably your favorite dApp."
+      }
+    },
+    "commands": {
+      "!calc": "Trigger calculation handler",
+      "!tariff": "Get a meme-fueled explanation of tariffs",
+      "!linea": "Shill Linea hard",
+      "!roast_wallet": "Roast Rabby or OKX wallet",
+      "!whois vitalik": "Get info on crypto personalities",
+      "!finance_term": "Explain financial lingo with memes"
+    }
+  }
+}

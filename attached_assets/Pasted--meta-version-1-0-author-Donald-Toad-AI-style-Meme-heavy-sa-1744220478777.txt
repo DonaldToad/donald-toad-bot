@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "version": "1.0",
+    "author": "Donald Toad AI",
+    "style": "Meme-heavy, sarcastic, crypto-savvy humor",
+    "categories": ["tariffs", "inflation", "crypto", "wallets", "L2s", "finance", "regulations", "Web3", "central banks"]
+  },
+  "jokes": {
+    "tariffs": [
+      "Tariffs: When your country gets salty about imports.",
+      "Tariffs are the economic version of 'you can't sit with us.'",
+      "Tariffs: Making goods more expensive since the 1700s.",
+      "Tariffs are like diet taxes — they still hurt but look healthier.",
+      "Governments be like: 'We need to protect local industries.' *Slaps 50% tax on bananas*"
+    ],
+    "inflation": [
+      "Inflation is just money trying to cosplay as Monopoly cash.",
+      "Remember when $1 meant something? Pepperidge Farm remembers.",
+      "Inflation: the only time when 2+2 suddenly costs 5.",
+      "You’re not broke, you’re just 'economically realigned.'",
+      "Wages: 🐌 | Prices: 🚀"
+    ],
+    "crypto": [
+      "Crypto: where your JPEG is worth more than your car.",
+      "Web3 is just Web2 with more confusion and fewer refunds.",
+      "If your coin is on page 3 of CoinMarketCap, it’s a hobby, not an investment.",
+      "Crypto winter? More like Ice Age Part 4.",
+      "The only place you can be rugged and still say 'I'm early.'"
+    ],
+    "wallets": [
+      "Rabby Wallet? More like Crabby Wallet.",
+      "OKX Wallet users still buffering.",
+      "Cold wallets: Because trusting exchanges is so 2022.",
+      "Your MetaMask is your passport. The others? Tourist traps.",
+      "If you lost your seed phrase, welcome to DeFi Darwinism."
+    ],
+    "L2s": [
+      "Base is like diet Ethereum — no flavor, no purpose.",
+      "Taiko sounds like a sushi chain. Linea sounds like the future.",
+      "Arbitrum's biggest feature is confusion.",
+      "Optimism? More like 'Cautious Hope.'",
+      "Linea: zkEVM with swag. Others are just cosplaying."
+    ],
+    "finance": [
+      "Hedge funds: making big bets with other people’s yachts.",
+      "Larry Fink didn’t build BlackRock, he *manifested* it.",
+      "The Federal Reserve: where vibes become policy.",
+      "TradFi is just DeFi with worse branding.",
+      "If your fund strategy is 'Buy the dip,' you might be retail."
+    ],
+    "regulations": [
+      "SEC: Saving Everyone from Crypto... or something like that.",
+      "Crypto regs are written with MS Paint and vibes.",
+      "Bureaucracy: the real layer zero.",
+      "The IRS: They watch your NFTs more than OpenSea does.",
+      "Compliance is just KYC with extra attitude."
+    ],
+    "Web3": [
+      "Web3 is just Web2 with way more scams and slightly cooler memes.",
+      "DAOs: When democracy meets Discord mods.",
+      "In Web3, you either die a founder or live long enough to get rugged.",
+      "The metaverse is just Zoom meetings in 3D.",
+      "GM = I have no job but I'm vibing anyway."
+    ],
+    "central_banks": [
+      "Jerome Powell prints money like it's a mixtape.",
+      "Central banks: where 'soft landing' means faceplant in slow motion.",
+      "If interest rates were a roller coaster, we’re on the loop-de-loop.",
+      "Money printer go brrrr is the most honest economic summary ever.",
+      "The ECB wakes up and chooses bureaucracy daily."
+    ]
+  }
+}

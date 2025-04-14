@@ -1,0 +1,127 @@
+# Updated Instructions for Donald Toad Telegram Bot on Replit
+
+## 🔧 Fixing Existing Issues
+
+### 🐸 1. Capital City Bug
+**Problem**: When asked about a country, bot gives capital instead of political views.
+**Fix**:
+```python
+with open("donald_views.json") as f:
+    political_opinions = json.load(f)
+
+country = user_input.lower()
+if country in political_opinions:
+    response = political_opinions[country]
+else:
+    response = "I don't have strong croakpinions on that one yet! 🐸"
+```
+
+### 🎭 2. Jokes by Topic
+**Problem**: Jokes always default to apes.
+**Fix**:
+- Use `jokes_by_topic.json`:
+```json
+{
+  "tariffs": ["Tariffs? Beautiful! Keeps foreign bugs OUT of our swamp. Croak on that! 🐸"],
+  "defi": ["DeFi is like a frog party with no adult supervision. Wild. Profitable. Ribbit."],
+  "dex": ["DEXs are like frog markets — no kings, just flips and swaps. Flies for everyone! 🐸"]
+}
+```
+
+### 🤖 3. Nonsense Answer Bug
+**Fix**:
+```python
+user_id = update.effective_user.id
+memory = user_memory.get(user_id, [])
+if 'defi' in memory[-1].lower() and 'which' in user_input:
+    response = "For sure, Uniswap is big. Linea frogs love it. Even PancakeSwap's flipping around."
+```
+
+---
+
+## 📝 Donald Toad Capabilities
+**Command**: `/features`
+```text
+🐸 What can Donald Toad do?
++ Track Bitcoin, Ethereum and DTC prices
++ Tell jokes – the BEST jokes, believe me!
++ Give you the tastiest frog-approved recipes
++ Share spicy info about Linea L2
++ Tell you all about himself – HUGE brain!
++ Play Trivia and Guess-the-Number
++ Search online for real-time croaks
++ Make Your Bags Great Again 💼🐸
+```
+
+---
+
+## 📈 Meme Coin Trigger Enhancements
+```python
+if token in ["foxy", "croak", "linus", "linpuss", "lpuss"]:
+    update.message.reply_text("Don't worry about that, Donald Toad Coin is the ONLY MEME YOU NEEED! 🐸💰 The BEST meme coin on Linea - everyone says so! Believe me!")
+    show_price_chart("DTC")
+```
+
+---
+
+## 💰 Price Tracking Issue Fix
+**Fix**:
+Restore support for BTC, ETH, and DTC:
+```python
+def get_crypto_price(symbol):
+    url = f"https://api.coingecko.com/api/v3/simple/price?ids={symbol}&vs_currencies=usd"
+    response = requests.get(url).json()
+    return response[symbol]["usd"]
+
+if "bitcoin" in message.lower() or "btc" in message.lower():
+    price = get_crypto_price("bitcoin")
+    reply = f"Bitcoin is at ${price}. The king of the swamp! 👑🐸"
+elif "ethereum" in message.lower() or "eth" in message.lower():
+    price = get_crypto_price("ethereum")
+    reply = f"Ethereum is at ${price}. Vitalik's frog palace. 🐸💎"
+elif "dtc" in message.lower():
+    price = get_crypto_price("donald-toad-coin")
+    reply = f"Donald Toad Coin (DTC) is at ${price}. Only the STRONG croak here. 🐸💰"
+```
+
+---
+
+## 🦊 MetaMask Promotion Fix
+**Fix**:
+Update wallet recommendation responses:
+```python
+wallet_keywords = ["rabby", "okx", "wallet"]
+if any(w in user_input.lower() for w in wallet_keywords):
+    update.message.reply_text("Forget those baby wallets. MetaMask is the GIGATOAD of wallets! Secure, sexy, and Linea-ready! 🦊🐸")
+```
+
+---
+
+## 🧠 Memory Tracking
+```python
+user_memory = {}
+
+def update_memory(user_id, message):
+    if user_id not in user_memory:
+        user_memory[user_id] = []
+    user_memory[user_id].append(message)
+    if len(user_memory[user_id]) > 10:
+        user_memory[user_id].pop(0)
+```
+
+---
+
+## ✅ JSONs Needed
+- `donald_views.json` → Political croakpinions per country and topic
+- `jokes_by_topic.json` → Topic-based humor (100+ jokes)
+- `defi_knowledge.json` → Frog-lingo definitions
+
+---
+
+✅ Now fixed: 
+- Meme coin triggers
+- BTC/ETH/DTC tracking
+- MetaMask recommendations
+- Memory & continuity 
+
+Would you like me to generate the new JSON files now?

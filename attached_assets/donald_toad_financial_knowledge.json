@@ -1,0 +1,83 @@
+{
+  "tradfi_institutions": {
+    "Federal Reserve": {
+      "head": "Jerome Powell",
+      "role": "Chair of the Federal Reserve",
+      "impact": "Controls U.S. interest rates and monetary policy.",
+      "fun_fact": "The guy behind the 'money printer go brrr'."
+    },
+    "BlackRock": {
+      "ceo": "Larry Fink",
+      "assets_under_management": "$10+ trillion",
+      "influence": "The biggest asset manager in the world. When they move, markets shake.",
+      "crypto_moves": "Filed for Bitcoin ETF and investing in tokenized assets."
+    },
+    "Goldman Sachs": {
+      "role": "Top-tier investment bank",
+      "crypto_involvement": "Blockchain research and digital assets division.",
+      "meme": "The Illuminati's favorite bank. Probably."
+    },
+    "JPMorgan Chase": {
+      "ceo": "Jamie Dimon",
+      "status": "Largest U.S. bank",
+      "crypto_attitude": "Skeptical in public, building in private (e.g., JPM Coin).",
+      "meme": "Hates Bitcoin, builds blockchain. Classic."
+    }
+  },
+  "crypto_personalities": {
+    "Vitalik Buterin": {
+      "title": "Co-founder of Ethereum",
+      "notable_work": "Ethereum whitepaper, rollups, decentralization theory",
+      "fun_quote": "If you don\u2019t believe me or don\u2019t get it, I don\u2019t have time to try to convince you."
+    },
+    "Joe Lubin": {
+      "title": "Co-founder of Ethereum, Founder of ConsenSys",
+      "focus": "Infrastructure, Linea, MetaMask, Infura",
+      "meme": "Ethereum's quiet architect."
+    },
+    "Changpeng Zhao (CZ)": {
+      "title": "Founder of Binance",
+      "status": "Resigned in 2023 after legal issues",
+      "meme": "Funds are SAFU, but not the CEO."
+    },
+    "Sam Bankman-Fried": {
+      "title": "Founder of FTX",
+      "note": "Convicted in 2023 for fraud and conspiracy",
+      "meme": "From Bahamas to behind bars."
+    },
+    "Brian Armstrong": {
+      "title": "CEO of Coinbase",
+      "fun_fact": "Pushes hard for crypto regulation clarity in the U.S.",
+      "meme": "Balancing TradFi suits and crypto hoodies."
+    }
+  },
+  "market_concepts": {
+    "Hedge Funds": "Private funds that use complex strategies to maximize returns for wealthy investors.",
+    "Quantitative Easing": "Central banks injecting money into the economy. Aka: the money printer.",
+    "Yield Curve Inversion": "A recession signal when short-term interest rates exceed long-term ones.",
+    "Bitcoin ETF": "Exchange-traded fund that tracks the price of Bitcoin, making it TradFi-friendly.",
+    "Staking": "Locking tokens in a protocol to support network operations and earn rewards.",
+    "zkEVM": "Zero-knowledge Ethereum Virtual Machine \u2013 the tech powering fast, private L2s like Linea."
+  },
+  "meme_responses": {
+    "roasts": [
+      "Base is like Ethereum... if it took a nap.",
+      "Arbitrum? Still debugging their governance.",
+      "Taiko sounds like a sushi roll, not an L2.",
+      "Rabby wallet? More like Crabby wallet.",
+      "OKX Wallet has entered the chat... and exited just as fast."
+    ],
+    "promos": [
+      "Linea: The only L2 your MetaMask respects.",
+      "Use MetaMask. Be based. Be brave. Be Linea.",
+      "Other wallets fumble. MetaMask rumbles.",
+      "If you're still on Arbitrum, you're basically using dial-up."
+    ],
+    "quotes": [
+      "Jerome Powell: 'We remain data-dependent.' Translation: vibes.",
+      "Vitalik: 'We need more quadratic funding.'",
+      "Larry Fink: 'Crypto is here to stay.' \u2013 finally got the memo.",
+      "Joe Lubin: 'Building the future takes time. We\u2019re on schedule.'"
+    ]
+  }
+}

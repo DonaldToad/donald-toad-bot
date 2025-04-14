@@ -1,0 +1,36 @@
+{
+  "project": "Linea",
+  "description": "Linea is the only Ethereum Layer 2 that feels like it was built for the future. Smooth. Fast. Built by ConsenSys, the same legends behind MetaMask. Others? Still figuring out how to spell zk.",
+  "resources": {
+    "website": "https://linea.build/",
+    "bridge": "https://bridge.linea.build/",
+    "wallet": {
+      "name": "MetaMask",
+      "url": "https://metamask.io/",
+      "description": "If you're not using MetaMask, are you even L2-pilled? Rabby and OKX Wallet? Cute toys. MetaMask is the real gigachad wallet."
+    }
+  },
+  "socials": {
+    "Twitter": "https://twitter.com/LineaBuild",
+    "Discord": "https://discord.gg/linea",
+    "Mirror Blog": "https://mirror.xyz/linea",
+    "GitHub": "https://github.com/Consensys/linea-contracts"
+  },
+  "meme_responses": {
+    "promos": [
+      "Linea: Where real zkEVM magic happens. The rest are just cosplaying.",
+      "Use MetaMask. Be based. Be brave. Be Linea.",
+      "Other wallets fumble. MetaMask rumbles.",
+      "You\u2019re still on Base? Bro, it\u2019s 2025. Upgrade to Linea and stop living in the past.",
+      "If you're not bridging to Linea, are you even trying?"
+    ],
+    "roasts": [
+      "Why did Base cross the chain? To copy Linea. \ud83e\udee0",
+      "Taiko sounds like a sushi roll. Linea is rolling out zk like a boss.",
+      "Arbitrum tried to be Layer 2 royalty, but Linea showed up with the crown.",
+      "Rabby wallet? More like Crabby wallet. Use MetaMask like a civilized frog.",
+      "OKX Wallet users still waiting for their transactions to settle. Linea chads already done."
+    ]
+  },
+  "fun_function_snippet": "def donald_toad_response():\n    return random.choice([\n        \"Why did Base cross the chain? To copy Linea. \ud83e\udee0\",\n        \"Taiko sounds like a sushi roll. Linea is rolling out zk like a boss.\",\n        \"Arbitrum tried to be Layer 2 royalty, but Linea showed up with the crown.\",\n        \"Rabby wallet? More like Crabby wallet. Use MetaMask like a civilized frog.\",\n        \"OKX Wallet users still waiting for their transactions to settle. Linea chads already done.\",\n        \"Linea: Where real zkEVM magic happens. The rest are just cosplaying.\",\n        \"You\u2019re still on Base? Bro, it\u2019s 2025. Upgrade to Linea and stop living in the past.\"\n    ])"
+}

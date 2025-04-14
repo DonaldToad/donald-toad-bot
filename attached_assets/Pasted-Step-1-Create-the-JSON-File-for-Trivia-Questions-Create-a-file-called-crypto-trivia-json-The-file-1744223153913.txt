@@ -1,0 +1,127 @@
+Step 1: Create the JSON File for Trivia Questions
+Create a file called crypto_trivia.json.
+
+The file will contain a set of trivia questions and their corresponding answers. Here’s an example of the JSON structure:
+
+json
+Copy
+Edit
+{
+  "questions": [
+    {
+      "question": "Who is the founder of Ethereum?",
+      "answer": "Vitalik Buterin"
+    },
+    {
+      "question": "What is the maximum supply of Bitcoin?",
+      "answer": "21000000"
+    },
+    {
+      "question": "Which cryptocurrency is known as 'digital gold'?",
+      "answer": "Bitcoin"
+    },
+    {
+      "question": "What is the consensus mechanism used by Ethereum 1.0?",
+      "answer": "Proof of Work"
+    },
+    {
+      "question": "Which platform is the biggest decentralized exchange?",
+      "answer": "Uniswap"
+    }
+  ]
+}
+Step 2: Upload the JSON to Replit
+Upload the crypto_trivia.json file to your Replit project.
+
+You can place it in the same directory as your bot.py.
+
+Step 3: Modify the Telegram Bot to Handle Trivia
+Now let’s modify the bot to handle the trivia game.
+
+1. Import Required Libraries
+You’ll need to use json for loading the trivia data and random to select random questions.
+
+python
+Copy
+Edit
+import random
+import json
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+2. Load Trivia Data
+We will load the trivia questions from the crypto_trivia.json file.
+
+python
+Copy
+Edit
+# Load trivia questions from the JSON file
+def load_trivia_questions():
+    with open("crypto_trivia.json", "r") as file:
+        data = json.load(file)
+    return data["questions"]
+
+# Global variable to keep track of the current trivia question and correct answer
+trivia_questions = load_trivia_questions()
+current_question = None
+current_answer = None
+3. Start the Trivia Game
+We’ll create a function that triggers when a user types "Play Trivia." The bot will send the first trivia question.
+
+python
+Copy
+Edit
+# Start the Trivia Game when the user types 'Play Trivia'
+def start_trivia(update: Update, context):
+    global current_question, current_answer
+    
+    # Select a random question
+    question = random.choice(trivia_questions)
+    current_question = question["question"]
+    current_answer = question["answer"]
+    
+    # Send the question to the user
+    update.message.reply_text(f"🎮 Let's play Crypto Trivia! Here’s your question:\n\n{current_question}\n\nType your answer below:")
+4. Handle User Answers
+We need to check if the user's answer matches the correct answer. If it does, we'll tag the user who answered first.
+
+python
+Copy
+Edit
+# Handle user messages (check if they answer correctly)
+def handle_user_message(update: Update, context):
+    global current_question, current_answer
+
+    # Only check answers if a trivia question is active
+    if current_question:
+        user_answer = update.message.text.strip()
+        
+        # Check if the user's answer is correct
+        if user_answer.lower() == current_answer.lower():
+            update.message.reply_text(f"🎉 Correct, {update.message.from_user.username}! You won this round. 🎉")
+            current_question = None  # Reset trivia question
+            current_answer = None    # Reset trivia answer
+        else:
+            update.message.reply_text("❌ Incorrect answer. Try again!")
+5. Setup the Command and Message Handlers
+Set up handlers for the /play_trivia command and user messages.
+
+python
+Copy
+Edit
+# Replace YOUR_TOKEN with your actual bot token
+updater = Updater("YOUR_TOKEN", use_context=True)
+
+# /play_trivia command handler
+updater.dispatcher.add_handler(CommandHandler("play_trivia", start_trivia))
+
+# General message handler to check for correct answers
+updater.dispatcher.add_handler(MessageHandler(Filters.text, handle_user_message))
+
+# Start polling (so the bot listens for messages)
+updater.start_polling()
+updater.idle()
+Step 4: Test the Trivia Game
+Run the bot on Replit.
+
+Go to Telegram, and type /play_trivia to start the game.
+

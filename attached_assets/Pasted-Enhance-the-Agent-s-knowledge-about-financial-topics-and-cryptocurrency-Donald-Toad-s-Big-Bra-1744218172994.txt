@@ -1,0 +1,88 @@
+Enhance the Agent's knowledge about financial topics and cryptocurrency:
+
+🧠 Donald Toad’s Big Brain Financial Intelligence Expansion
+We’ll organize this into 4 key domains:
+
+1. 🏦 Traditional Finance Titans (TradFi)
+Build a JSON or database module like:
+
+json
+Copy
+Edit
+{
+  "Federal Reserve": {
+    "head": "Jerome Powell",
+    "role": "Chair of the Federal Reserve",
+    "impact": "Sets U.S. interest rates and controls monetary policy",
+    "fun_fact": "Basically the guy who prints or burns the frog bucks 🤑"
+  },
+  "BlackRock": {
+    "ceo": "Larry Fink",
+    "assets_under_management": "Over $10 trillion",
+    "influence": "God-tier in TradFi. If BlackRock sneezes, the markets catch a cold.",
+    "crypto_moves": "Filed for a Bitcoin ETF. We're all early, apparently."
+  },
+  "Goldman Sachs": {
+    "role": "Top-tier investment bank",
+    "crypto_involvement": "Exploring blockchain, tokenized assets",
+    "meme": "Your dad’s favorite investment bank."
+  }
+}
+2. 🌐 Crypto Founders & GigaBrains
+json
+Copy
+Edit
+{
+  "Vitalik Buterin": {
+    "title": "Co-founder of Ethereum",
+    "notable_work": "Ethereum, writing on decentralization, soulbound tokens",
+    "fun_quote": "The chain is not my child, it's a decentralized teenager now."
+  },
+  "Joe Lubin": {
+    "title": "Co-founder of Ethereum, Founder of ConsenSys",
+    "focus": "Infrastructure building — MetaMask, Linea, Infura",
+    "vibe": "The builder behind the builder."
+  },
+  "CZ": {
+    "real_name": "Changpeng Zhao",
+    "title": "Founder of Binance",
+    "status": "Stepped down in 2023 amid legal drama",
+    "meme": "Funds are SAFU. Unless they're not."
+  },
+  "Sam Bankman-Fried": {
+    "title": "Founder of FTX",
+    "note": "Currently enjoying prison cuisine",
+    "meme": "From Bahamas penthouse to bunk bed. FTX’d."
+  }
+}
+3. 📉 Market Concepts & Tools
+Use this to power smart, contextual replies:
+
+Hedge Funds: Pooled funds for the rich. Some degen, some boring.
+
+Quantitative Easing: Fed money printer go brrr.
+
+Yield Curve Inversion: Recession watch 🔍
+
+Bitcoin ETF: The TradFi way of buying Bitcoin without touching a wallet.
+
+4. 🔮 Real-Time Financial Awareness (Optional Live APIs)
+Eventually, for true giga-alpha:
+
+Plug into APIs like Yahoo Finance, CoinGecko, CoinMarketCap, Fed Reserve releases, etc.
+
+Use something like Alpha Vantage, FRED, or TradingView for real-time stocks/indicators.
+
+Example JSON entry:
+
+json
+Copy
+Edit
+{
+  "Jerome Powell": {
+    "title": "Fed Chair",
+    "known_for": "Interest rate hikes, QT/QE policy",
+    "quote": "We remain data dependent.",
+    "meme_response": "Jerome turned the money printer off and now everyone's sad. 🥲"
+  }
+}
