@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What was the first cryptocurrency ever created?",
+    "options": ["Ethereum", "Bitcoin", "Litecoin", "Dogecoin"],
+    "correct_answer": "Bitcoin",
+    "explanation": "Bitcoin was created in 2009 by Satoshi Nakamoto, and it was the first cryptocurrency ever. TREMENDOUS innovation, completely changed finance forever! The best, maybe in the history of currencies! 🐸"
+  },
+  {
+    "question": "What blockchain is Donald Toad Coin built on?",
+    "options": ["Ethereum", "Bitcoin", "Solana", "Linea"],
+    "correct_answer": "Linea",
+    "explanation": "Donald Toad Coin is built on Linea - the FASTEST, most TREMENDOUS L2 blockchain! We only use the best technology, believe me! Linea has low fees and incredible speed, it's going to be YUGE! 🐸"
+  },
+  {
+    "question": "What is the process of validating cryptocurrency transactions called?",
+    "options": ["Mining", "Staking", "Farming", "Minting"],
+    "correct_answer": "Mining",
+    "explanation": "Mining is how transactions get verified on blockchain networks that use Proof of Work. Very important, very complex process - only the smartest people understand it, believe me! I understand it better than anybody! 🐸"
+  },
+  {
+    "question": "What is the total supply cap of Bitcoin?",
+    "options": ["21 million", "100 million", "1 billion", "Unlimited"],
+    "correct_answer": "21 million",
+    "explanation": "Bitcoin has a hard cap of 21 million coins - that's what makes it so valuable! Unlike the US Dollar which they print TRILLIONS of whenever they want. Bitcoin is digital gold, the best store of value, maybe ever! 🐸"
+  },
+  {
+    "question": "What is the name of the consensus mechanism that Ethereum transitioned to in 2022?",
+    "options": ["Proof of Work", "Proof of Stake", "Proof of Authority", "Proof of History"],
+    "correct_answer": "Proof of Stake",
+    "explanation": "Ethereum moved to Proof of Stake in 2022 - much more energy efficient, very beautiful transition! They call it 'The Merge' and it was one of the biggest, most tremendous upgrades in crypto history! 🐸"
+  },
+  {
+    "question": "What is the name of Donald Toad Coin's contract address?",
+    "options": ["0xBEEF...1234", "0xDEAD...BEEF", "0xEb1fD1dBB8aDDA4fa2b5A5C4bcE34F6F20d125D2", "0x1234...5678"],
+    "correct_answer": "0xEb1fD1dBB8aDDA4fa2b5A5C4bcE34F6F20d125D2",
+    "explanation": "The Donald Toad Coin contract address is 0xEb1fD1dBB8aDDA4fa2b5A5C4bcE34F6F20d125D2 on the Linea network! It's the most secure, most tremendous contract ever written! Very beautiful code, the best code! 🐸"
+  },
+  {
+    "question": "Which of these is NOT a cryptocurrency wallet type?",
+    "options": ["Hardware wallet", "Paper wallet", "Hot wallet", "Temperature wallet"],
+    "correct_answer": "Temperature wallet",
+    "explanation": "Temperature wallet isn't real! The others are all real wallet types. Hardware wallets like Ledger are the MOST secure! Cold storage, very beautiful technology. I know more about wallets than anyone! 🐸"
+  },
+  {
+    "question": "What is the name of the fear and greed index for cryptocurrency markets?",
+    "options": ["Crypto Fear & Greed Index", "Bitcoin Mood Meter", "Blockchain Sentiment Tracker", "Digital Currency Barometer"],
+    "correct_answer": "Crypto Fear & Greed Index",
+    "explanation": "The Crypto Fear & Greed Index measures market sentiment! When it's fearful, that's when the smartest investors (like me) BUY! When others are greedy, smart people take profits! I always buy low and sell high, the best trader! 🐸"
+  },
+  {
+    "question": "What is the process of reducing a miner's reward by half called?",
+    "options": ["Halving", "Splitting", "Dividing", "Reducing"],
+    "correct_answer": "Halving",
+    "explanation": "It's called Halving! Bitcoin has a halving approximately every 4 years, and it's one of the most important, most beautiful economic mechanisms ever created! Makes Bitcoin more scarce and more valuable over time! 🐸"
+  },
+  {
+    "question": "When is Donald Toad Coin scheduled to launch?",
+    "options": ["October 1, 2024", "November 3, 2024", "December 25, 2024", "January 1, 2025"],
+    "correct_answer": "November 3, 2024",
+    "explanation": "Donald Toad Coin launches on November 3, 2024 - to Make Your Bags Great Again! The most tremendous launch date! Will be the biggest, most successful token launch in history! 🐸"
+  },
+  {
+    "question": "What is the term for a digital asset representing ownership of a unique item?",
+    "options": ["NFT", "DeFi", "DAO", "DEX"],
+    "correct_answer": "NFT",
+    "explanation": "NFT stands for Non-Fungible Token - unique digital assets! I create the most beautiful, most valuable NFTs! Some have sold for MILLIONS! Digital art is the future, and I was there first, before anyone else! 🐸"
+  },
+  {
+    "question": "What type of cryptocurrency is designed to maintain a stable value?",
+    "options": ["Stablecoin", "Altcoin", "Privacy coin", "Meme coin"],
+    "correct_answer": "Stablecoin",
+    "explanation": "Stablecoins maintain a steady value, usually pegged to a fiat currency like USD! Very important for trading and avoiding volatility. Tremendous innovation, really beautiful technology! I understand stablecoins better than anyone! 🐸"
+  },
+  {
+    "question": "Which cryptocurrency was created as a joke but became wildly popular?",
+    "options": ["Ethereum", "Litecoin", "Dogecoin", "Cardano"],
+    "correct_answer": "Dogecoin",
+    "explanation": "Dogecoin started as a joke but became HUGE! I respect tremendously what they've accomplished! From meme to billions in market cap! Donald Toad Coin will be even BIGGER though, believe me! 🐸"
+  },
+  {
+    "question": "What term describes a prolonged period of declining crypto prices?",
+    "options": ["Bear market", "Bull market", "Sideways market", "Kangaroo market"],
+    "correct_answer": "Bear market",
+    "explanation": "Bear markets are when prices fall for extended periods! Smart investors like me BUY during bear markets! This is when fortunes are made! The best investors, really tremendous investors, they're all buying when others are fearful! 🐸"
+  },
+  {
+    "question": "What is the term for when a blockchain splits into two separate chains?",
+    "options": ["Fork", "Split", "Division", "Fracture"],
+    "correct_answer": "Fork",
+    "explanation": "It's called a Fork! Happens when there's disagreement about blockchain rules. Bitcoin Cash forked from Bitcoin, Ethereum Classic forked from Ethereum! Very dramatic events, tremendous impact on the ecosystem! 🐸"
+  },
+  {
+    "question": "What does DeFi stand for?",
+    "options": ["Decentralized Finance", "Digital Finance", "Distributed Funding", "Direct Financing"],
+    "correct_answer": "Decentralized Finance",
+    "explanation": "DeFi stands for Decentralized Finance - the most TREMENDOUS innovation in finance! Cutting out the corrupt middlemen and giving power back to the people! I've always supported DeFi, from the beginning, before anyone else! 🐸"
+  },
+  {
+    "question": "What is the recommended exchange to buy Donald Toad Coin?",
+    "options": ["Binance", "Coinbase", "Lynex", "Kraken"],
+    "correct_answer": "Lynex",
+    "explanation": "Lynex is the BEST place to buy Donald Toad Coin! It's a decentralized exchange (DEX) on Linea with the deepest liquidity! The most tremendous trading experience, very low fees, beautiful interface! 🐸"
+  },
+  {
+    "question": "Which crypto term refers to holding onto coins despite price drops?",
+    "options": ["HODL", "FOMO", "FUD", "DYOR"],
+    "correct_answer": "HODL",
+    "explanation": "HODL means Hold On for Dear Life! Started as a typo but became crypto slang! The most tremendous strategy - buy and HODL! That's how you make the biggest, most beautiful profits in crypto! I've been HODLing since day one! 🐸"
+  },
+  {
+    "question": "What is the process of converting crypto to fiat currency called?",
+    "options": ["Off-ramping", "Cashing out", "Liquidating", "Converting"],
+    "correct_answer": "Off-ramping",
+    "explanation": "Off-ramping is moving from crypto back to traditional finance! The opposite is on-ramping. Sometimes you need to take profits - I take the BIGGEST profits, nobody takes better profits than me, believe me! 🐸"
+  },
+  {
+    "question": "What is the name of the document that outlines a crypto project's goals?",
+    "options": ["White paper", "Green paper", "Blue paper", "Red paper"],
+    "correct_answer": "White paper",
+    "explanation": "It's called a White Paper! Bitcoin's white paper by Satoshi was the FIRST and most TREMENDOUS! Donald Toad Coin has the best white paper ever written, with the most beautiful goals and tokenomics! 🐸"
+  }
+]

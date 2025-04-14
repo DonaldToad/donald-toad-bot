@@ -1,0 +1,1 @@
+// This file is no longer used - image generation feature has been removed
